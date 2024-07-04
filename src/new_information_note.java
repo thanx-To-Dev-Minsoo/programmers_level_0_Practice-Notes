@@ -33,3 +33,8 @@ public class new_information_note {
 
 // 따라서 '.length' 는 배열에서, 'length()'는 문자열에서 각각 해당 객체의 길이를 구하는 데 사용됩니다.
 // 이 두 가지를 구분하는 것이 중요합니다.
+
+
+// append
+// - 뜻: 덧붙이다, 첨부하다
+// - append 함수는 문자열 끝에 문자열을 추가합니다.
