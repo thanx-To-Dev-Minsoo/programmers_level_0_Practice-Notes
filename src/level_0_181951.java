@@ -11,5 +11,7 @@ public class level_0_181951 {
 
         System.out.println("a = " + a);
         System.out.println("b = " + b);
+
+        sc.close();
     }
 }
