@@ -47,7 +47,7 @@ public class level_0_120806 {
 // 4. 최종결과를 반환합니다.
 
 // 개선된 코드
-//public class level_0_120806 {
+// public class level_0_120806 {
 //    public int solution(int num1, int num2) {
 //        double a = (double) num1 / num2;
 //

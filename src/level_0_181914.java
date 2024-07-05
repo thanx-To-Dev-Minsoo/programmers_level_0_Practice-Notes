@@ -16,8 +16,8 @@ public class level_0_181914 {
 }
 
 
-//answer += Character.getNumericValue(number.charAt(i)); -> 공부 내용
-//이 코드는 Java 에서 문자열 'number' 의 각 문자를 숫자로 변환하여 'answer' 변수에 더하는 과정을 나타냅니다. 세세하게 설명.
+// answer += Character.getNumericValue(number.charAt(i)); -> 공부 내용
+// 이 코드는 Java 에서 문자열 'number' 의 각 문자를 숫자로 변환하여 'answer' 변수에 더하는 과정을 나타냅니다. 세세하게 설명.
 
 // 1. 'number.chatAt(i)':
 //      - 'number' 는 문자열(String)입니다.
@@ -35,10 +35,10 @@ public class level_0_181914 {
 //      - '+=" 연산자는 'answer = answer + ...' 와 같은 의미로, 'answer' 에 값을 더하고 그 결과를 다시 'answer' 에 저장합니다..
 //      - 따라서, 'answer += Character.getNumericValue(number.charAt(i));' 는 'answer' 에 'number' 의 'i' 번때 문자를 숫자를 변환한 값을 더하는 것입니다.
 
-//종합적으로 이 코드를 설명하면. 'number' 문자열의 'i' 반째 문자를 숫자로 변환하여 'answer' 에 더하는 작업을 작업을 수행하는 것입니다.
-//예를 들어, 'number' 가 "12345"이고 'i' 가 2라면, 이 코드가 실행된 후 'answer' 에 3이 더해집니다.
+// 종합적으로 이 코드를 설명하면. 'number' 문자열의 'i' 반째 문자를 숫자로 변환하여 'answer' 에 더하는 작업을 작업을 수행하는 것입니다.
+// 예를 들어, 'number' 가 "12345"이고 'i' 가 2라면, 이 코드가 실행된 후 'answer' 에 3이 더해집니다.
 
-//이 코드를 반복문과 함께 사용하면 문자열의 모든 숫자를 더할 수 있습니다. 예를 들어:
+// 이 코드를 반복문과 함께 사용하면 문자열의 모든 숫자를 더할 수 있습니다. 예를 들어:
 
 // String number = "12345";
 // int answer = 0;

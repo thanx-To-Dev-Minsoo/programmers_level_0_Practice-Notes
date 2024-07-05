@@ -1,7 +1,7 @@
 //문자열 겹쳐쓰기
 //문자열 my_string, overwrite_string 과 정수 s 가 주어집니다.
 //문자열 my_string 의 인덱스 s 부터 overwrite_string 의 길이만큼
-// 문자열 overwrite_string 으로 바꾼 문자열을 return 하는 solution 함수를 작성해주세요.
+//문자열 overwrite_string 으로 바꾼 문자열을 return 하는 solution 함수를 작성해주세요.
 
 public class level_0_181943 {
     public String solution (String my_string, String overwrite_string, int s) {
