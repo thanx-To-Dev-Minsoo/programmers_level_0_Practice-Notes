@@ -8,7 +8,7 @@ public class level_0_181887 {
         int evenSum = 0; //짝수 번째 원소들의 합
 
         for (int i = 0; i < num_list.length; i++) {
-            if((i + 1) % 2 == 1) {
+            if ((i + 1) % 2 == 1) {
                 //인덱스 i + 1 이 홀수인 경우 (홀수 번째)
                 oddSum += num_list[i];
             } else {
@@ -20,7 +20,13 @@ public class level_0_181887 {
         //홀수 번째 원소들의 합과 짝수 번째 원소들의 합 중 큰 값을 반환
         return Math.max(oddSum, evenSum);
     }
-}
+
+    public static void main(String[] args) {
+        level_0_181887 solution = new level_0_181887();
+        int result = solution.solution(new int[] {4, 2, 6, 1, 7, 6});
+        System.out.println(result);
+    }
+} //일반 메서드 돌려보는 법
 
 
 // 메서드 선언
