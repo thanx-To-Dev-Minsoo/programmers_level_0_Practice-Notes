@@ -2,10 +2,21 @@
 
 import java.util.Scanner;
 
+//public class level_0_181952 {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        String str = sc.next();
+//        System.out.println(str);
+//    }
+//}
+
 public class level_0_181952 {
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         String str = sc.next();
+
         System.out.println(str);
     }
 }
+
