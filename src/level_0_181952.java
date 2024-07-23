@@ -17,6 +17,8 @@ public class level_0_181952 {
         String str = sc.next();
 
         System.out.println(str);
+
+        sc.close(); //sc.close(); 는 습관화하는 것이 좋다.
     }
 }
 
